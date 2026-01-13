@@ -20,6 +20,7 @@ function checkProbabilityTheory(count) {
     console.log('Не парних чисел: ' + oddCount);
     console.log('Відсоток парних: ' + evenPercentage.toFixed(2) + '%');
     console.log('Відсоток непарних: ' + oddPercentage.toFixed(2) + '%');
+    console.log('Відсоток парних до непарних: ' + evenPercentage.toFixed(2) + '%' + "/" + oddPercentage.toFixed(2) + '%');
   }
 
-  checkProbabilityTheory(99)
+  checkProbabilityTheory(1000)
